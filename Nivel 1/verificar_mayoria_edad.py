@@ -1,4 +1,4 @@
-edad = int(input ("Añade la edad"))
+edad = int(input ("Añade la edad: "))
 if edad >= 18:
     print("Mayor de edad")
 else:
