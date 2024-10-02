@@ -22,7 +22,5 @@ while numEntero != "fin":
 for num in listaEnteros:
     if es_primo(num):
         qPrimos += 1
-    else:
-        qPrimos += 0
 
 print(f"Hay {qPrimos} números primos")
