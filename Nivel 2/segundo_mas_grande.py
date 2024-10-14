@@ -5,4 +5,7 @@ setEnteros = set(listaEnteros)
 listaEnteros = list(setEnteros)
 listaEnteros.sort()
 
-print(f"El segundo mayor número es {listaEnteros[-2]}")
+if len(listaEnteros) >= 2:
+    print(f"El segundo mayor número es {listaEnteros[-2]}")
+else:
+    print("No hay suficientes números únicos para determinar el segundo mayor.")
