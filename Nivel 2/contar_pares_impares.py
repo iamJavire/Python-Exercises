@@ -13,4 +13,4 @@ for num in listaNumeros:
     else:
         qImpares += 1
 
-print(f"Hay un total de {qPares} números pares y {qImpares} númeroes impares")
+print(f"Hay un total de {qPares} números pares y {qImpares} números impares")
